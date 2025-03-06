@@ -1,6 +1,7 @@
+@charset "UTF-8"
 @font-face {
     font-family: 'fonte';
-    src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
+    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf');
 }
 
 *{
@@ -20,15 +21,16 @@ html, body{
 
 main{
     background-color: white;
-    width: 400px;
-    height: 500px;
+    width: 90vw;
+    height: 550px;
+    max-width: 400px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 2px black;
     padding: 20px;
 }
 
 .img{
-    background: url('./assets/images/illustration-article.svg') no-repeat;
+    background: url('../assets/images/illustration-article.svg') no-repeat;
     background-size: cover;
     height: 200px;
     border-radius: 10px;
