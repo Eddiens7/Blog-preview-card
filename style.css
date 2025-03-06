@@ -34,4 +34,50 @@ main{
     border-radius: 10px;
 }
 
-.content
+.content{
+    padding: 10px 0;
+}
+
+.content h2{
+    background-color: #F6D050;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 1.2em;
+}
+
+.date{
+    color: black;
+    font-weight: normal;
+    padding: 10px 0;
+}
+
+.content h1{
+    cursor: pointer;
+}
+
+.content h1:active{
+    color: #F5CB53;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.content p{
+    padding: 10px 0;
+    color: hsl(0, 0%, 42%);
+    font-weight: 300;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+    margin-top: 20px;
+}
+
+.author img{
+    width: 50px;
+}
+
+.author span{
+    font-weight: bold;
+}
